@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="200" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dirtroad" tilewidth="32" tileheight="32">
+  <image source="../ART/dirtroad.png" width="96" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt2ttu2kAUQNHk/3+6qlSpagXElxl7D6wl+cVRCJyNGdvk64uzvv9sNHw/2LiPHl2atDw6VrS5lx5d2rTocd6zNWDP9upx2UePljNzO9qK5/S4n7m16NGiQYseLXq06NGy5TruzLUg+7yarR7XGzFnPeY58p7Xo0WPa1g/rjPi3roe45hzi1m36NGiR4seLXq0OK9t0WN9erTo0eJzq8V60qRHkx4terTo0aJHix4terQ86+F+2D30aPmpx9Hf55iz73s9xtLjvegxzpnvF63n4+lxP7Ns8N7u0KBDhw4tOrRo0WIc1wX3GDl3PY4zywZzb9GgRYsW63KL86X16dHkeGnRo02PcUas5XqM4/5Uy95Z6jGXWbbo0aJHi/W7RY/16dGiR4seLXq06NHiXleLHu9DjxY9WvRo0aNFjxY9WvRocW3Sosc69LiX46NFjxbzb9GjxWdVix5derTo0aJHix4t/ieiRY916dGiR4seLXq06NGiR4seLXq06NGiR4seLXq0fHKP4n1WPeZsZ5/TJ3r12vW43ozXvrXVT/s/0V09tnSqmrneXv3a9x4rRe/U45kVe2zdP+KxP8WR8xI95tGjZcv5/tn9R57PrPWpTo+WWT1mzFOPxz+/o8eqx8eW433rjEb02PJ7W+jx7+P9tO///bN6rGb08z7SY+9xdfR5rECPllk9RqzLRz9LV107ftOj5R1f08r0WIce93N8tOjRokGLHi16tOjRokeLHi16XOtd78OtSo8W827Ro0WPFj1arOUteqxDj2u59mjRo8W8WxwLLXp06dHg+GjRo0WHFj1a9GjRo0WPBudVLXq06NCiR8vW7z6Oblv+Bn/N7uF7roYtc9ejRY8WPeawfrTo0WKuLXq06NGiR4seLXq06NGiR4seLXq06NGix3zuC7bocY9fwDIFqQ==
+  </data>
+ </layer>
+</map>

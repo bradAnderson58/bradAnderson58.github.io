@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ohmygodbearisdriving</title>
+    <script src="js/phaser-1-5.js"></script>
+	<script src="js/boot.js"></script>
+	<script src="js/preloader.js"></script>
+	<script src="js/levelOne.js"></script>
+	<script src="js/levelTwo.js"></script>
+	<script src="js/levelFour.js"></script>
+	<script src="js/intro.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/end.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script type = "text/javascript">
+
+window.onload = function(){
+	var game = new Phaser.Game(1024, 600, Phaser.CANVAS, 'container');
+	
+	game.state.add('boot', BasicGame.boot);
+	game.state.add('preloader', BasicGame.preloader);
+	game.state.add('intro', BasicGame.intro);
+	game.state.add('levelOne', BasicGame.levelOne);
+	game.state.add('levelTwo', BasicGame.levelTwo);
+	game.state.add('levelFour', BasicGame.levelFour);
+	game.state.add('main', BasicGame.main);
+	game.state.add('end', BasicGame.end);
+	
+	game.state.start('boot');
+
+};
+</script>
+
+</body>
+</html>
+
+<style>
+body
+{
+    color: #777;
+    font-family: "Avenir", Verdana, sans-serif;
+}
+#readme
+{
+    margin-top: 10px;
+}
+</style>
+
+</head>
+<body>
+<div id="game"></div>
+<div id="readme">
+<h2>Oh My God Bear Is Driving!</h2>
+<ul>
+
+<li><strong>High Concept:</strong>
+This is a racing game where you play as a bear.
+</li>
+
+<li><strong>Player Experience Goals:</strong>
+This is a fast paced game that requires good reflexes
+</li>
+
+<li><strong>Genre:</strong>
+Racing / Driving Game
+</li>
+
+<li><strong>Game Play:</strong>
+The core mechanic is turning the car.  This will ultimately be accomplished by using the Left and Right turn buttons
+located in the top corners of the screen.  This decision was made in the hopes that this game will become a mobile
+app, and the player will hit the buttons with their fingers.  However, this makes the turning mechanic difficult with a mouse, so the first iteration controls of using the left and right arrow keys on the keyboard have been retained as well.
+</li>
+
+<li><strong>Prototype Goals:</strong>
+The game mechanic being evaluated is a quick reaction time for turning the car while driving at full speed.  (Because
+bears always drive at full speed)
+</li>
+
+<li><strong>Features:</strong>
+This game is unique from other driving games because the player is a bear.  Also, the steering controls continue to degrade as the levels progress, because the bear is drinking and driving.
+</li>
+
+<li><strong>Setting / Premise:</strong>
+There is a bear driving a car. The police are chasing him because bears aren't allowed to drive cars. Also, he's been drinking. The player must guide the bear North to Canada, avoiding buildings and houses. Once the bear reaches Canada, his cousin is going to hook him up with a job.
+</li>
+
+<li><strong>Story:</strong>
+The bear travels North to Canada to avoid police.  However, upon reaching his destination, he finds the Canadian mounties are just has harsh on drunken bears, and he must flee West across the Bering Strait to Russia, where he will ultimately engage in a death race with Vladimir Putin, the final boss.
+</li>
+
+<li><strong>Target Audience:</strong>
+College kids who are procrastinating on their homework.
+</li>
+
+<li><strong>Play Time:</strong>
+This game should hopefully take considerable time to beat.  Although there will be relatively few levels, the difficulty is such that it takes a long time to master.
+</li>
+
+<li><strong>Strategies:</strong>
+From my own experience, I would suggest trying to ditch the cop around one of the hairpin turns. The cop does massive damage, and can trap the player against a wall. However, the AI is less than brilliant, if the player takes a turn sharp enough, the cop will turn too soon and get stuck. 
+</li>
+
+<li><strong>Estimated Schedule:</strong>
+The aspect of the game which takes the longest will probably be making the levels, as it requires a somewhat tedious expedition into Tiled or a similar tile editing program.  Improving the art could also potentially take some time to accomplish.  The core game mechanics should be fairly straight forward as they have already been coded, and tweeking them shouldn't be overly difficult.
+</li>
+
+<li><strong>Team:</strong>
+I like to fancy myself a fairly competent programmer, but my artistic skills are somewhat lacking, as illustrated by my sprites.  (I dont know if anybody noticed, but that driving bear was photoshopped).
+</li>
+
+<li><strong>Prototype Assets:</strong>
+My driving bear is an image I found on a website called modifiedmamas.com after googling 'angry bear'. I then edited it in Gimp to give it a steering wheel. The cars I found on clker.com after googling 'car sprite'. I found the buildings at illysian.com. Roads, fences and other small objects were done in Gimp.  The trees were found on the rpgmkervx.net forums. The main song is 'The Bear and The Maiden Fair' originally written by George R.R. Martin and performed by Hold Steady. The end credits song is the Canadian Anthem.
+</li>
+
+<li><strong>Prototype Closest Other Game:</strong>
+This is the second iteration of Oh My God, Bear Is Driving!  In it, I have focused on feedback I received from folks who I had convinced to playtest my game.  Many expressed a desire to be able to play the game on their phone, and many complained that it was too hard.  So I made some easier beginning levels (as well as a ridiculous hard level) and added buttons for mobile use.
+<li>
+
+</ul>
+</div>
+</body>
+</html>
